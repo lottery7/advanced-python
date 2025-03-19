@@ -1,0 +1,6 @@
+services:
+  app:
+    build: ./texgen_usage
+    volumes:
+      - "./artifacts/2:/app/artifacts"
+      
